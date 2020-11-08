@@ -1,0 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.header .logo img{
+    width: 220px;
+    height: auto;
+}
+.header{
+    background-color: #7f8c8d;
+}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a{
+    padding: 0 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 75px;
+    border-right: 1px solid #ffff;
+}
+.primary-menu ul li:first-child a{
+    border-left: 1px solid #fff;
+}
+.primary-menu ul li a:hover{
+    background-color: #000;
+}
+
+/* Banner */
+.banner{
+    background: url(./images/banner.jpg) no-repeat center fixed;
+    padding: 150px 0;
+    background-size: cover;
+}
+.banner h1{
+    background-color: rgba(185, 41, 154, 0.9);
+    max-width: 350px;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.banner h2{
+    background-color: rgba(14, 2, 2, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* about */
+.about{
+    background: #ecf0f1;
+}
+
+/* Service */
+.service{
+    background-color: #c8d6e5;
+}
+.service span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background:#3498db;
+    margin: auto;
+    color: #fff;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+    -webkit-border-radius: 20px 0 20px 0;
+    -moz-border-radius: 20px 0 20px 0;
+    -ms-border-radius: 20px 0 20px 0;
+    -o-border-radius: 20px 0 20px 0;
+}
+
+/* product */
+.product{
+    background: #bdc3c7;
+}
+img{
+    max-width: 100%;
+}
+.product-item p{
+    font-size: 18px;
+}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background: #b4adad;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Footer */
+.footer{
+    background: #2c3e50;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 15px;
+    display: inline-block;
+}
